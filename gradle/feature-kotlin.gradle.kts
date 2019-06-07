@@ -21,7 +21,7 @@ when {
         apply(plugin = "kotlin")
     }
 
-    else -> throw IllegalStateException("Kotlin feature only supports Java or Android based modules")
+    else -> throw IllegalStateException("Module [$name], Kotlin feature only supports Java or Android based modules")
 }
 
 tasks.withType<KotlinCompile> {

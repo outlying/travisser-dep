@@ -1,1 +1,1 @@
-include ':app', ':core-ui', ':core'
+include ':app', ':core-ui', ':core', ':network-travis'

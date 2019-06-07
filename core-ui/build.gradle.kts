@@ -27,7 +27,7 @@ android {
 
 dependencies {
 
-    implementation(project(":core"))
+    api(project(":core"))
 
     implementation("com.android.support:appcompat-v7:28.0.0")
     implementation("com.android.support.constraint:constraint-layout:1.1.3")

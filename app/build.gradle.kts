@@ -1,8 +1,8 @@
-feature("kotlin")
-
 plugins {
     id("com.android.application")
 }
+
+feature("kotlin")
 
 android {
     compileSdkVersion(28)
